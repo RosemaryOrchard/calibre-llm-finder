@@ -1,0 +1,66 @@
+:root {
+  color-scheme: light dark;
+  --accent: #5b6ee1;
+}
+
+body {
+  font-family: -apple-system, system-ui, sans-serif;
+  max-width: 720px;
+  margin: 2.5rem auto;
+  padding: 0 1.25rem;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  opacity: 0.75;
+  margin-top: 0;
+}
+
+#search-form {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+#query {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #8884;
+}
+
+button {
+  padding: 0.6rem 1.1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#log {
+  white-space: pre-wrap;
+}
+
+.tool-call {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  font-style: italic;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.error {
+  color: #d1453b;
+}

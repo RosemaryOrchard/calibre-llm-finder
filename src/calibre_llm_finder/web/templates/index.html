@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Calibre LLM Finder</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main>
+    <h1>📚 Calibre LLM Finder</h1>
+    <p class="subtitle">Describe a book you half-remember. The agent will search your library and explain its reasoning.</p>
+    <form id="search-form">
+      <input id="query" type="text" autocomplete="off"
+             placeholder="e.g. a doctor who turns into someone evil at night..." />
+      <button type="submit">Find it</button>
+    </form>
+    <section id="log" aria-live="polite"></section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

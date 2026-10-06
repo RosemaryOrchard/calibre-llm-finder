@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# App data — local index/cache, never commit a user's library contents or embeddings
+data/
+*.db
+*.db-journal
+.env
+diagnostics.log
